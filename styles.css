@@ -56,7 +56,8 @@ a:hover {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* ===== header ===== */
@@ -178,7 +179,7 @@ nav a:hover {
 
 /* ===== sections ===== */
 section {
-  padding: 48px 0;
+  padding: 24px 0;
 }
 
 .section-title {
@@ -201,7 +202,6 @@ section {
 .about-grid {
   display: grid;
   gap: 24px;
-  margin-bottom: 40px;
 }
 
 .about-card {
@@ -257,7 +257,6 @@ section {
 .skills-grid {
   display: grid;
   gap: 16px;
-  margin-bottom: 40px
 }
 
 .skill-card {
@@ -307,7 +306,6 @@ section {
 .projects-grid {
   display: grid;
   gap: 20px;
-  margin-bottom: 40px
 }
 
 .project-card {
@@ -359,7 +357,6 @@ section {
   background: linear-gradient(135deg, var(--pink-soft), var(--purple-soft));
   border-radius: var(--radius);
   padding: 28px 24px;
-  margin-bottom: 40px
 }
 
 .contact-list {
